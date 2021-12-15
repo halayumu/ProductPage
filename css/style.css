@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    padding-top: 0px;
+    /* padding-left: 50px;
+    padin */
+    padding-bottom: 300px;
+    background-image: url(../img/mobail.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
