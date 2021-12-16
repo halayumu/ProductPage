@@ -4,19 +4,94 @@
 }
 
 header {
-    width: 100%;
-    padding-top: 0px;
+    background-image: url(../img/mobail.jpg);
+    background-size: cover;
+    padding-bottom: 52.2%;
+    /* width: 100%;
+    padding-top: 50px; */
     /* padding-left: 50px;
     padin */
-    padding-bottom: 300px;
-    background-image: url(../img/mobail.jpg);
-    background-repeat: no-repeat;
+    /* padding-bottom: 300px; */
+    /* background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center center; */
 }
 
-img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
+#title1 {
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 3%;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+#title2 {
+    position: absolute;
+    padding-left: 30%;
+    padding-top: 28%;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.Heading {
+    text-align: center;
+    margin-top: 4%;
+    font-size: 30px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* #Product {} */
+
+#main {
+    background: #fcc;
+    margin-bottom: 10px;
+}
+
+#side {
+    background: rgb(226, 124, 124);
+    margin-bottom: 10px;
+}
+
+#main {
+    margin-left: 300px;
+    margin-top: 90px;
+}
+
+.side {
+    margin-left: 300px;
+    margin-top: 90px;
+}
+
+.flexbox {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.Product {
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+#tax {
+    margin-right: 13px;
+}
+
+#int {
+    font-weight: bold;
+}
+
+body p {
+    margin-right: 300px;
+}
+
+#Description {
+    padding-top: 50px;
+    margin-bottom: 32.5px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 300px;
+    font-weight: lighter
 }
