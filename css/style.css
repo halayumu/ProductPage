@@ -164,25 +164,27 @@ footer img {
     margin-left: 85%;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     header {
         background-image: url(../img/mobail.jpg);
         background-repeat: no-repeat;
-        padding-top: 100px;
-        padding-left: 330px;
-        padding-right: 330px;
-        height: 100px;
-        /* background-size: contain;
-        background-size: cover;
-        padding-left: 400px;
-        padding: 100px; */
+        width: 600px;
+        height: 150px;
     }
     #title1 {
-        /* position: absolute; */
-        padding-left: 0%;
-        padding-top: 0%;
-        color: #FFFFFF;
+        color: rgb(255, 255, 255);
+        margin: 0px;
+        padding: 0px;
         font-size: 14px;
-        padding-right: 1000px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    #title2 {
+        color: rgb(255, 255, 255);
+        margin: 0px;
+        padding: 0px;
+        font-size: 14px;
+        margin-top: 38%;
+        margin-left: 48%;
     }
 }
