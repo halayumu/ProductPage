@@ -187,4 +187,11 @@ footer img {
         margin-top: 38%;
         margin-left: 48%;
     }
+    .Heading {
+        margin-top: 10%;
+        font-size: 30px;
+        border-bottom: 2px solid rgb(0, 0, 0);
+        width: 300px;
+        margin-left: 40%;
+    }
 }
