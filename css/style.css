@@ -168,7 +168,7 @@ footer img {
     header {
         background-image: url(../img/mobail.jpg);
         background-repeat: no-repeat;
-        width: 600px;
+        width: 670px;
         height: 150px;
     }
     #title1 {
@@ -192,6 +192,9 @@ footer img {
         font-size: 30px;
         border-bottom: 2px solid rgb(0, 0, 0);
         width: 300px;
-        margin-left: 40%;
+        margin-left: 45%;
+    }
+    .flexbox {
+        display: block;
     }
 }
