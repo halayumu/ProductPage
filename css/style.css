@@ -10,5 +10,69 @@ header {
     height: 400px;
     width: 640px;
     /* background-size: cover;
-    padding-bottom: 50.2%; */
+padding-bottom: 50.2%; */
+}
+
+#title1 {
+    color: rgb(255, 255, 255);
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#title2 {
+    color: rgb(255, 255, 255);
+    padding-left: 210px;
+    padding-top: 120px;
+    font-size: 20px;
+}
+
+.Heading {
+    font-size: 30px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 200px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 220px;
+}
+
+.flexbox {
+    text-align: center;
+    margin-left: 130px;
+    width: 100%;
+}
+
+.Product {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#ProductName {
+    font-size: 25px;
+}
+
+#Description {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin-left: 80px;
+    width: 200px;
+}
+
+#Explanation {
+    text-align: left;
+    display: inline-block;
+}
+
+#br::before {
+    content: "\A";
+    white-space: pre;
+}
+
+#purchase {
+    width: 119px;
+    height: 28px;
+    /* margin-left: 70px; */
+    border-radius: 23px 23px 23px 23px;
+    background-color: #2E8B57;
+    color: #FFFFFF;
+    box-shadow: none;
 }
