@@ -4,7 +4,7 @@
 }
 
 @media screen and (max-width: 560px) {
-    /*このサイズより下がcss適用*/
+    /*このサイズより下がcss適用(スマホ)*/
     header {
         background-image: url(../img/mobail.jpg);
         background-repeat: no-repeat;
@@ -23,6 +23,9 @@
     #detail {
         width: 90%;
         margin: 0 auto;
+    }
+    #explanation {
+        padding: 0px 0px 30px;
     }
     main h2 {
         text-align: center;
@@ -44,7 +47,7 @@
         text-align: center;
         padding: 15px 0;
     }
-    .Quantity {
+    .quantity {
         background: none;
         border: none;
         font-size: 60px;
