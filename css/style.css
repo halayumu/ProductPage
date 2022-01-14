@@ -23,7 +23,7 @@
         /* padding-top: 10%; */
         padding-top: 15%;
     }
-    #detail {
+    .detail {
         width: 90%;
         margin: 0 auto;
     }
@@ -102,7 +102,7 @@
         background-image: url(../img/mobail.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 350px;
+        /* height: 350px; */
         padding: 5% 5%;
     }
     header {
@@ -113,7 +113,7 @@
         text-align: center;
         padding-top: 17%;
     }
-    #detail {
+    .detail {
         width: 90%;
         margin: 0 auto;
     }
@@ -205,6 +205,13 @@
         text-align: center;
         /* padding-top: 10%; */
         padding-top: 20%;
+    }
+    .productDetails {
+        text-align: center;
+        border-bottom: solid;
+        border-width: 2px;
+        width: 35%;
+        margin: 20px auto;
     }
     /* main h2 {
         text-align: center;
