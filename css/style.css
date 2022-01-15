@@ -213,14 +213,60 @@
         width: 35%;
         margin: 20px auto;
     }
-    /* main h2 {
-        text-align: center;
+    .detail {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #Productintroduction {
+        padding-left: 50%;
+    }
+    dd {
+        padding-bottom: 20px;
+    }
+    #sentence {
+        padding-left: 50%;
+    }
+    #sentence h2 {
         border-bottom: solid;
         border-width: 2px;
-        width: 35%;
-        margin: 20px auto;
-    } */
-    /* main #Product {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+    #function {
+        display: flex;
+    }
+    #fex {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 7%;
+    }
+    #minus {
+        padding-bottom: 8px;
+        padding-right: 30px;
+    }
+    #plus {
+        padding-left: 30px;
+    }
+    .quantity {
+        background: none;
+        border: none;
+        font-size: 50px;
+        font-weight: 100;
+    }
+    #br {
+        margin: 0 0 0 auto;
+        margin-top: 9.5%;
+    }
+    #br button {
+        width: 200px;
+        padding: 5px;
+        background-color: green;
+        color: white;
+        border-radius: 20px;
+        border: none;
+    }
+    #img {
         width: 50%;
         height: 300px;
         background-image: url(../img/Product.png);
@@ -228,5 +274,34 @@
         background-repeat: no-repeat;
         background-size: contain;
         margin: 0 auto;
-    } */
+        float: left
+    }
+    img {
+        border-radius: 32px;
+        width: 40%;
+    }
+    #img2 {
+        text-align: center;
+    }
+    #explanation {
+        padding: 20px 0px 20px 0px;
+        text-align: center;
+    }
+    footer {
+        background-color: #A1BFA1;
+        padding: 20px 0 10px;
+    }
+    footer p {
+        color: white;
+    }
+    footer img {
+        width: 50px;
+    }
+    #footer_contents {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #sns {
+        text-align: right;
+    }
 }
