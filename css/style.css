@@ -75,6 +75,13 @@
         border-radius: 20px;
         border: none;
     }
+    img {
+        border-radius: 32px;
+        width: 40%;
+    }
+    #img2 {
+        text-align: center;
+    }
     footer {
         background-color: #A1BFA1;
         padding: 20px 0 10px;
@@ -165,6 +172,13 @@
     #explanation {
         padding: 0px 0px 30px;
         text-align: left;
+        text-align: center;
+    }
+    img {
+        border-radius: 32px;
+        width: 40%;
+    }
+    #img2 {
         text-align: center;
     }
     footer {
