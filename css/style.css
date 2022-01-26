@@ -12,8 +12,8 @@
         background-image: url(../img/mobail.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 200px;
-        padding: 5% 5%;
+        /* height: 200px;
+        padding: 5% 5%; */
     }
     header p {
         color: white;
@@ -104,13 +104,13 @@
 
 /*タブレット*/
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
     header {
         background-image: url(../img/mobail.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         /* height: 350px; */
-        padding: 5% 5%;
+        padding: 15vmin 5%;
     }
     header {
         color: white;
@@ -176,7 +176,7 @@
     }
     img {
         border-radius: 32px;
-        width: 40%;
+        width: 70%;
     }
     #img2 {
         text-align: center;
